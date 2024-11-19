@@ -1,0 +1,19 @@
+{
+    "name": "stripephp/aufipt",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "stripe/stripe-php": "^16.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stripephp\\Aufipt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romack Natividad",
+            "email": "natividad.romack@auf.edu.ph"
+        }
+    ]
+}
